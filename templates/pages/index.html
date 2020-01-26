@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ general_setting.site_title }}
+{% endblock %}
+{% load static %}
+{% block css %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+
+{% endblock %}
+{% block content %}
+    {% include 'partials/_header.html' %}
+    <!--Main Slider-->
+<ul class="bxslider">
+{% for slid in slider %}
+<li>
+    <img src="{{ slid.image.url }}" style="height: 500px;width: 100%;margin: 0 auto"  />
+        <div class="carousel-caption">
+          <h3 style="color: {{ slid.title_color }}">{{ slid.title }}</h3>
+          <p style="color: {{ slid.description_color }}">{{ slid.sort_description }}</p>
+        </div>
+</li>
+{% endfor %}
+
+
+
+</ul>
+    <!--End Main Slider-->
+
+    <!--Welcome Section-->
+    <section class="welcome-section" style="background-image:url({% static '/' %}/images/resource/map-pattern-1.png)">
+    	<div class="auto-container">
+        	<!--Services Title-->
+            <div class="services-title">
+            	<div class="title">Welcome to {{ general_setting.site_title }}</div>
+            </div>
+            <div class="row clearfix">
+
+                <!--Services Block-->
+                {% if sectoonone %}
+                    {% for secone in sectoonone %}
+                     <div class="services-block col-md-4 col-sm-6 col-xs-12">
+                	<div class="inner-box hvr-float-shadow">
+                    	<div class="image">
+                        	<a ><img src="{{ secone.image.url }}" style="height: 300px;" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                        	<h3><a href="market-plans.html">{{ secone.title }}</a></h3>
+                            <div class="text">{{ secone.description }}</div>
+                        </div>
+                    </div>
+                </div>
+                    {% endfor %}
+
+
+                {% endif %}
+
+
+                <!--Services Block-->
+
+            </div>
+        </div>
+    </section>
+    <!--End Welcome Section-->
+
+    <!--Services Section-->
+    <section class="services-section no-padd-top grey-bg">
+    	<div class="auto-container">
+        	<!--Sec Title-->
+            <div class="sec-title">
+            	<h2>Services Offer</h2>
+            </div>
+            <div class="four-item-carousel owl-carousel owl-theme">
+
+
+                {% if homeservice %}
+                    {% for homser in homeservice %}
+                    <div class="services-block-two">
+                	<div class="inner-box">
+                    	<div class="icon-box">
+                        	<i class="{{ homser.icon }}"></i>
+                        </div>
+                        <h3><a >{{ homser.title }}</a></h3>
+                        <div class="text">{{ homser.description }}</div>
+                    </div>
+                </div>
+                    {% endfor %}
+
+
+                {% endif %}
+                <!--Services Block Two-->
+
+
+                <!--Services Block Two-->
+
+
+            </div>
+        </div>
+    </section>
+    <!--End Services Section-->
+
+    <!--Call To Action Section-->
+    <section class="call-to-action-section" style="background-image:url({{ homemiddlestatic.first_background_image.url }}">
+    	<div class="auto-container">
+        	<h2>{{ homemiddlestatic.first_title_one }}
+                <span>{{ homemiddlestatic.first_title_two }} </span>
+            </h2>
+            <div class="number-box clearfix">
+            	<div class="pull-left">
+                	<div class="number">{{ homemiddlestatic.first_number }}</div>
+                </div>
+                <div class="pull-right">
+                	<a href="{% url 'contact' %}" class="theme-btn btn-style-three">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Call To Action Section-->
+
+    <!--Study Section-->
+    <section class="study-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                	<div class="sec-title">
+                        <h2>{{ homemiddlestatic.second_title }}</h2>
+                    </div>
+                    <div class="text">{{ homemiddlestatic.second_description }}</div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                	<div class="inner-column">
+                    	<!--Video Box-->
+                        <div class="video-box">
+                            <figure class="image">
+                                <img src="{{ homemiddlestatic.second_image.url}}" style="height: 400px;" alt="">
+                            </figure>
+                            <a href="{{ homemiddlestatic.second_youtube_url }}" class="lightbox-image overlay-box"><span class="flaticon-play-button-2"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End Study Section-->
+
+    <!--Project Section-->
+
+    <!--End Project Section-->
+
+
+
+
+    <!--Clients Section-->
+    <section class="clients-section">
+        <div class="auto-container">
+
+            <div class="sponsors-outer">
+                <!--Sponsors Carousel-->
+                <ul class="sponsors-carousel owl-carousel owl-theme">
+                    {% if patners %}
+                        {% for pat in patners %}
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{ pat.image.url }}" style="height: 120px;" alt=""></a></figure></li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!--End Clients Section-->
+
+    <!--Appointment Section-->
+
+ {% include 'partials/_footer.html' %}
+{% endblock %}
+{% block js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+{% endblock %}

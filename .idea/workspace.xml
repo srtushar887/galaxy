@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="229dd710-aaa5-41ea-b7c8-61cd1b2e9b4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WICgMid1oB4FJp6892wPHRxhna" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="galaxy" type="Python.DjangoServer" factoryName="Django server">
+      <module name="galaxy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="globalit.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="229dd710-aaa5-41ea-b7c8-61cd1b2e9b4f" name="Default Changelist" comment="" />
+      <created>1578827831889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578827831889</updated>
+      <workItem from="1578827835141" duration="4382000" />
+      <workItem from="1579255536306" duration="7651000" />
+      <workItem from="1579272026984" duration="642000" />
+      <workItem from="1579327994502" duration="21720000" />
+      <workItem from="1579412593394" duration="8069000" />
+      <workItem from="1579928745827" duration="4731000" />
+      <workItem from="1579967321801" duration="2347000" />
+      <workItem from="1580023655780" duration="5000" />
+      <workItem from="1580023801353" duration="9069000" />
+      <workItem from="1580042956725" duration="7539000" />
+      <workItem from="1580050666842" duration="4575000" />
+      <workItem from="1580056864157" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="386" y="179" width="595" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579929037307">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="386" y="179" width="595" height="395" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.742@0.0.1366.742" timestamp="1579929037307" />
+    <state x="0" y="0" width="1368" height="747" key="FileChooserDialogImpl" timestamp="1580050369720">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="0" y="0" width="1368" height="747" key="FileChooserDialogImpl/0.0.1366.742/1366.0.1920.1080@0.0.1366.742" timestamp="1580050369720" />
+    <state x="2109" y="301" width="436" height="489" key="FileChooserDialogImpl/0.0.1366.742/1366.0.1920.1080@1366.0.1920.1080" timestamp="1580042911162" />
+    <state x="170" y="7" width="912" height="735" key="SettingsEditor" timestamp="1580050653772">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="1535" y="22" width="1022" height="735" key="SettingsEditor/0.0.1366.742/1366.0.1360.768@1366.0.1360.768" timestamp="1578827874386" />
+    <state x="170" y="7" width="912" height="735" key="SettingsEditor/0.0.1366.742/1366.0.1920.1080@0.0.1366.742" timestamp="1580050653772" />
+    <state x="1605" y="31" width="1022" height="735" key="SettingsEditor/0.0.1366.742/1366.0.1920.1080@1366.0.1920.1080" timestamp="1580043019602" />
+    <state x="1709" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579347655565">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1709" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.742/1366.0.1360.768@1366.0.1360.768" timestamp="1579347655565" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/partials/_header.html</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

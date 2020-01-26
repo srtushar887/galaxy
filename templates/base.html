@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from t.commonsupport.com/consultox/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jan 2020 07:15:41 GMT -->
+<head>
+<meta charset="utf-8">
+<title>{% block title %}{% endblock %}</title>
+<!-- Stylesheets -->
+<link href="{% static '/' %}/css/bootstrap.css" rel="stylesheet">
+<link href="{% static '/' %}/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="{% static '/' %}/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="{% static '/' %}/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+<link href="{% static '/' %}/css/style.css" rel="stylesheet">
+<link href="{% static '/' %}/css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="{% static '/' %}/images/favicon.png" type="image/x-icon">
+{% block css %}
+
+{% endblock %}
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="{% static '/' %}/js/respond.js"></script><![endif]-->
+
+<script src="https://kit.fontawesome.com/ce870e4a39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Main Header-->
+
+    <!--End Main Header -->
+        {% block content %}
+        
+        {% endblock %}
+    <!--Main Footer-->
+
+    <!--End Main Footer-->
+
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="{% static '/' %}/js/jquery.js"></script>
+<!--Revolution Slider-->
+<script src="{% static '/' %}/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="{% static '/' %}/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="{% static '/' %}/js/main-slider-script.js"></script>
+
+<script src="{% static '/' %}/js/bootstrap.min.js"></script>
+<script src="{% static '/' %}/js/jquery.fancybox.pack.js"></script>
+<script src="{% static '/' %}/js/jquery.fancybox-media.js"></script>
+<script src="{% static '/' %}/js/owl.js"></script>
+<script src="{% static '/' %}/js/wow.js"></script>
+<script src="{% static '/' %}/js/appear.js"></script>
+<script src="{% static '/' %}/js/script.js"></script>
+ {% block js %}
+
+{% endblock %}
+</body>
+
+<!-- Mirrored from t.commonsupport.com/consultox/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jan 2020 07:18:37 GMT -->
+</html>
